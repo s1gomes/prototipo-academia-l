@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  google_fonts: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -16,4 +19,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  assets: 
+    - assets/images/
+    - assets/google_fonts/
   uses-material-design: true
